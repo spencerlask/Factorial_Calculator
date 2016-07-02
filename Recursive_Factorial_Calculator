@@ -1,0 +1,27 @@
+# A recursive factorial calculator
+
+def recursive_calculate_factorial(number):
+    if number != 0:
+        return recursive_calculate_factorial(number - 1) * number
+
+    else:
+        return(1)
+
+def user_input():
+
+    try:
+
+        var = int(input("number:"))
+        var = abs(var)
+
+        Factorial = recursive_calculate_factorial(var)
+
+        print(Factorial)
+
+    except:
+
+        print("input an integer")
+
+        user_input()
+
+user_input()

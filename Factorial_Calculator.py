@@ -1,4 +1,4 @@
-# Written by Spencer Lask with help from Kellen Lask, 5/21/2016; this program will output the factorial of any number
+# Written by Spencer Lask with help from Kellen Lask, 5/21/2016; this program will output the factorial of any integer
 
 
 def calculate_factorial():
@@ -24,3 +24,8 @@ def calculate_factorial():
     except:
         print("Input an integer")
         calculate_factorial()
+
+calculate_factorial()
+
+
+
